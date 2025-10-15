@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="./Response.html" target="_blank" name="Biodata" method="get">
+        <fieldset>
+            <legend>Biodata</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+            <br>
+            <br>
+            <label for="DOB">DOB:</label>
+            <input type="date" id="DOB" name="DOB" placeholder="Enter Your DOB" required>
+            <br>
+            <br>
+            <label for="tel">Phone</label>
+            <input type="tel" name="tel" id="tel" placeholder="Enter Your Number" min="10" max="10">
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Emial" required>
+            <br>
+            <br>
+            <label for="attempt">Attempt</label>
+            <input type="number" name="attempt" id="attempt">
+            <br>
+            <br>
+            <label for="gender"> Gender:</label required>
+            <input type="radio" name="male" id="male" name="gender" value="male" >
+            <label for="male">Male</label>
+            <input type="radio" name="female" id="female" name="gender" value="female" >
+            <label for="female">Female</label>
+            <br>
+            <br>
+
+            <label for="check">Vehicles You Have</label>
+            <input type="checkbox" name="vehicle1" id="bike" value="Bike">
+            <label for="bike">Bike</label>
+            <input type="checkbox" name="car" id="car" name="Vehicle2" value="car">
+            <label for="car">Car</label>
+            <br>
+            <br>
+            <label for="lang">Select Your Programming Language</label>
+            <select name="lang" id="lang">
+                <option value="none" selected disabled>Select an lang</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+            </select>
+            <br>
+            <br>
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pass" required>
+            <br>
+            <br>
+            <label for="appointment">Appoinment</label>
+            <input type="time" name="appoinment" id="appoinment" required>
+            <br>
+            <br>
+            <label for="File">File Upload</label>
+            <input type="file" name="File" id="File">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
